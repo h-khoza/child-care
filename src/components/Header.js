@@ -19,7 +19,7 @@ export default function Header() {
         </ul>
       </div>
 
-      <Button text="log in" url="#" />
+      <Button text="sign in" url="#" />
 
     </HeaderStyle>
   )

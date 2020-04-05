@@ -2,6 +2,12 @@ import { createGlobalStyle } from 'styled-components'
 
 
 export default createGlobalStyle`
+
+:root {
+  --green: #28CB8A;
+  --grey: #393939;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
@@ -26,6 +32,7 @@ html {
 
 body {
   margin: 0;
+  font-family: Calibri,'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif
 }
 
 /**
