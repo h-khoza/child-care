@@ -3,9 +3,12 @@ import { createGlobalStyle } from 'styled-components'
 
 export default createGlobalStyle`
 
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
+
 :root {
   --green: #28CB8A;
   --grey: #393939;
+  --black: #262626;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -32,7 +35,7 @@ html {
 
 body {
   margin: 0;
-  font-family: Calibri,'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif
+  font-family: 'Quicksand', sans-serif;
 }
 
 /**
