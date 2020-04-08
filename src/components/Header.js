@@ -1,7 +1,7 @@
 import React from 'react'
 import logo from '../img/logo.png'
 import Button from './Button'
-import { HeaderStyle } from '../style/Style'
+import HeaderStyle from '../style/HeaderStyle'
 
 export default function Header() {
   return (

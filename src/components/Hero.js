@@ -1,7 +1,7 @@
 import React from 'react'
-import { HeroStyle } from '../style/Style'
+import HeroStyle from '../style/HeroStyle'
 import Button from './Button'
-import bgHero from '../img/bg-hero.jpg'
+
 export default function Hero() {
   return (
     <HeroStyle>
@@ -15,9 +15,9 @@ export default function Hero() {
       </div>
 
       <div className="sub-text">
-        <h2> If you're a parent and you wanna view
+        <p> If you're a parent and you wanna view
         the process  of your child click the button
-      bellow</h2>
+      bellow</p>
 
         <Button text="View Child" url="#" />
       </div>

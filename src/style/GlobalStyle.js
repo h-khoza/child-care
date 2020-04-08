@@ -9,6 +9,7 @@ export default createGlobalStyle`
   --green: #28CB8A;
   --grey: #393939;
   --black: #262626;
+  --orange: #FEA620;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -36,6 +37,31 @@ html {
 body {
   margin: 0;
   font-family: 'Quicksand', sans-serif;
+  background: linear-gradient(to bottom, #F8FCFB 0% ,transparent  15%,
+  transparent 80%, #F8FCFB 100%
+  );
+  position: relative;
+  min-height: 100vh;
+  
+  padding: 1.5rem 0;
+
+  @media only screen and (min-width: 40.625em ){padding: 0;}
+  
+
+  &::after {
+    display: block;
+    content: "Henkh Dryza";
+    font-size: 1rem;
+    letter-spacing: 2px;
+    color: var(--black);
+    position: absolute;
+    opacity: .5;
+    left: 50%;
+    bottom: 1rem;
+    transform: translateX(-50%)
+    
+    
+  }
 }
 
 /**

@@ -1,13 +1,12 @@
 import React from 'react'
-import Header from '../components/Header'
 import Hero from '../components/Hero'
+import HomeStyle from '../style/HomeStyle'
 
 export default function home() {
   return (
-    <>
-      <Header />
+    <HomeStyle>
       <Hero />
-    </>
+    </HomeStyle>
 
   )
 }
