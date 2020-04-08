@@ -34,9 +34,14 @@ margin: 0 auto;
 
     li {
       display: inline-block;
-      letter-spacing: 3px;
-      font-size: 1.125rem;
+      a {
+        letter-spacing: 3px;
+        font-size: 1.125rem;
+        text-decoration: none;
+        color: var(--grey);
 
+      }
+      
       &:not(:last-child) {
         padding-right: 1rem;
       }

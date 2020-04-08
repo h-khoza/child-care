@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import bgHero from '../img/bg-hero.jpg'
 
 export default styled.div`
 
@@ -57,7 +56,7 @@ export default styled.div`
       position: absolute;
       height: 100%;
       width: 47%;
-      background: url("${bgHero}");
+      background: url("./img/bg-hero.jpg");
       background-size: cover;
 
     }

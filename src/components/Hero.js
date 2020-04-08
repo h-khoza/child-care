@@ -1,5 +1,5 @@
 import React from 'react'
-import HeroStyle from '../style/HeroStyle'
+import HeroStyle from '../style/heroStyle'
 import Button from './Button'
 
 export default function Hero() {

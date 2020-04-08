@@ -392,4 +392,14 @@ body {
   margin: 0;
 }
 
+.btn {
+  text-transform: capitalize;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  letter-spacing: 1px;
+  border-radius: 5px;
+
+}
+
 `
