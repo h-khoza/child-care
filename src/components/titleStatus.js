@@ -66,6 +66,8 @@ const TittleStatusStyle = styled.div`
     border-top-right-radius: 1.5rem;
   }
 
+
+
 }
 
 `

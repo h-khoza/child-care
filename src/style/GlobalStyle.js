@@ -27,6 +27,10 @@ html {
   -webkit-text-size-adjust: 100%; /* 2 */
 }
 
+*, *::before, *::after {
+  box-sizing:  border-box;
+}
+
 /* Sections
    ========================================================================== */
 
